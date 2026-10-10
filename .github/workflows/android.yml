@@ -33,7 +33,7 @@ jobs:
           KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
           VERSION_CODE: ${{ github.run_number }}
-        run: ./gradlew bundleRelease assembleRelease
+        run: chmod +x gradlew && ./gradlew bundleRelease assembleRelease
 
       - uses: actions/upload-artifact@v4
         with:
