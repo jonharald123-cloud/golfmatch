@@ -66,6 +66,8 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GolfMatch bruker posisjonen din, avrundet til ca. 5 km, til å finne spillepartnere i nærheten.</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 </dict>
